@@ -1,0 +1,20 @@
+{
+  "name": "vitewsedit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "sh scripts/plant_editor.sh",
+    "dev": "vite --open",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.6",
+    "svelte": "^3.37.0",
+    "vite": "^2.1.5"
+  }
+}
